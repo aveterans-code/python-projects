@@ -1,0 +1,36 @@
+Python 3.12.0 (tags/v3.12.0:0fb18b0, Oct  2 2023, 13:03:39) [MSC v.1935 64 bit (AMD64)] on win32
+Type "help", "copyright", "credits" or "license()" for more information.
+>>> 
+= RESTART: E:/110/pyth/exercises/ch3/ch3ex16.py
+This program calculates the nth Fibonacci value
+
+Enter the value of n: 15
+
+The nth value is: 610
+-------------------------------
+Geoff King
+CIS 110 ch3ex16.py
+Mon Feb 12 17:00:06 2024
+-------------------------------
+>>> main()
+This program calculates the nth Fibonacci value
+
+Enter the value of n: 25
+
+The nth value is: 75025
+-------------------------------
+Geoff King
+CIS 110 ch3ex16.py
+Mon Feb 12 17:00:32 2024
+-------------------------------
+>>> main()
+This program calculates the nth Fibonacci value
+
+Enter the value of n: 100
+
+The nth value is: 354224848179261915075
+-------------------------------
+Geoff King
+CIS 110 ch3ex16.py
+Mon Feb 12 17:00:41 2024
+-------------------------------

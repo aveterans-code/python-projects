@@ -1,0 +1,20 @@
+Geoff King
+CIS 110 program3.py
+IPO and pseudocode
+Feb 12, 2024
+
+IPO
+Input - Get number of calculations, (base number) value of x, and (exponent number) value of y
+Process - Calculate the exponential values with math.pow(x,y)
+Output - Print the results
+
+Pseudocode
+Import time and math libraries
+Print introduction
+Ask for number of calculations = n
+	Create loop for n times
+	Ask for the base number value, x, and exponent value, y
+	Calculate the value with math.pow(x,y)
+	Print the value of x^y after each number set is entered
+
+

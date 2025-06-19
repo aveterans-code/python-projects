@@ -1,0 +1,36 @@
+Python 3.12.0 (tags/v3.12.0:0fb18b0, Oct  2 2023, 13:03:39) [MSC v.1935 64 bit (AMD64)] on win32
+Type "help", "copyright", "credits" or "license()" for more information.
+>>> 
+= RESTART: E:/110/pyth/exercises/ch3/ch3ex04.py
+This program calculates the distance of a lightning strike.
+
+Please enter the number of seconds between flash and thunder: 2
+
+The lightning is approximately 0.4 miles away.
+-------------------------------
+Geoff King
+CIS 110 ch3ex04.py
+Fri Feb  9 19:56:43 2024
+-------------------------------
+>>> main()
+This program calculates the distance of a lightning strike.
+
+Please enter the number of seconds between flash and thunder: 5
+
+The lightning is approximately 1.0 miles away.
+-------------------------------
+Geoff King
+CIS 110 ch3ex04.py
+Fri Feb  9 19:56:50 2024
+-------------------------------
+>>> main()
+This program calculates the distance of a lightning strike.
+
+Please enter the number of seconds between flash and thunder: 10
+
+The lightning is approximately 2.1 miles away.
+-------------------------------
+Geoff King
+CIS 110 ch3ex04.py
+Fri Feb  9 19:57:25 2024
+-------------------------------
