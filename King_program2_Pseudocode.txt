@@ -1,0 +1,20 @@
+Pseudocode_program2.py
+Geoff King
+December 6, 2023
+
+IPO
+Input – Current distance
+Process - Create a 3 iteration for loop   Formula = sec = distance / 186,000
+Output – Print the seconds
+
+
+Print a program introduction
+Query user for distance between Mars and NASA
+Calculate the time for a photo to travel from Mars to NASA
+	Create a 3 iteration for loop
+	Formula
+      sec = distance / 186,000
+
+The time will be printed in seconds
+
+
