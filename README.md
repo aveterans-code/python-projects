@@ -1,2 +1,2 @@
 # python-projects
-Contains python modules and sample output
+Contains basic, entry-level, python modules and sample output
