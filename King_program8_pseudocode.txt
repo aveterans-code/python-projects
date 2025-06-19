@@ -1,0 +1,39 @@
+Geoff King
+CIS 110
+Assignment 8 – Tic-Tac-Toe
+April 24, 2024
+IPO
+I – User clicks
+P – use setCoords() to find where user clicked
+O – gameboard, the right shape, either X or O
+Pseudocode
+•	Import time and graphics libraries.
+•	Initiate GraphWin window
+•	Use setCoords() to define window coordinates
+•	Set a background color light green
+•	Use Rectangle to create the 3x3 grid inside larger window
+•	Create the ‘X’ function(playX)
+o	Use message to provide instructions for player ‘X’
+o	Capture where current player clicks
+o	Use nested if statement to determine where to draw the ‘X’
+	Return ‘x’
+•	Create the ‘O’ function(playO)
+o	Use message to provide instructions for player ‘O’
+o	Capture where current player clicks
+o	Use nested if statement to determine where to draw the ‘O’
+	Return ‘o’ 
+•	Create main function
+•	Empty message
+•	initiate the first turn of playx function
+•	set text color to red for X
+•	Create a counted for loop to iterate 4 times
+o	Initiate ‘playO’ function
+o	Draw the return
+o	Initiate ‘playX’ function
+o	Draw the return
+•	‘close’ will replace  ‘empty message’
+•	Wait for click
+o	Close window
+•	End main
+
+
