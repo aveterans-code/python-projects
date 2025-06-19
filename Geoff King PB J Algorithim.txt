@@ -1,0 +1,28 @@
+Geoff King
+CIS 110 Program 1, part 2
+Feb 5, 2024
+Peanut Butter and Jelly Algorithm
+1.	Start out with a desire for a sandwich.
+2.	Look for someone to make a sandwich for me.
+a.	After a search no-one is around so I need to do it myself.
+3.	In the kitchen.
+a.	Find a clean, large plate, butter knife, and paper towel. 
+i.	Place these items on a clean counter surface where the sandwich will be made.
+b.	Take the peanut butter out of the cupboard and place it on the counter.
+c.	Take the raspberry jelly out of the fridge and place it on the counter.
+d.	Find loaf of bread
+i.	Open the bag and reach past the first heel of the loaf to grab two slices of bread.
+ii.	Set the two bread slices on the plate.
+iii.	Close bread bag
+e.	Open jelly and set lid down out of the way on the counter.
+i.	Pick up butter knife inserting the flat end into the jar to grab the desired amount of jelly.
+ii.	Spread on slice of bread
+iii.	Repeat process with peanut butter on the second, empty, slice of bread.
+f.	Put the peanut butter covered slice onto the jelly slice with the peanut butter facing down toward the jelly.
+i.	Cut sandwich if desired.
+g.	Clean up dirty dishes.
+i.	Place the dirty knife in the dishwasher.
+h.	Place covers back on peanut butter and jelly jars.
+i.	Put jars back where they came from.
+j.	Double check I cleaned my mess.
+k.	Enjoy sandwich
