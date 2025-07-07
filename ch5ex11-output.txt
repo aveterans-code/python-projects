@@ -1,0 +1,26 @@
+Python 3.12.0 (tags/v3.12.0:0fb18b0, Oct  2 2023, 13:03:39) [MSC v.1935 64 bit (AMD64)] on win32
+Type "help", "copyright", "credits" or "license()" for more information.
+>>> 
+= RESTART: E:\110\pyth\exercise\ch5\ch5ex11.py
+This program illustrates a chaotic function
+
+Enter the first seed between 0 and 1: .25
+Enter the second seed between 0 and 1: .26
+
+index    0.25      0.26
+------------------------------
+ 1       0.731250  0.750360
+ 2       0.766441  0.730547
+ 3       0.698135  0.767707
+ 4       0.821896  0.695499
+ 5       0.570894  0.825942
+ 6       0.955399  0.560671
+ 7       0.166187  0.960644
+ 8       0.540418  0.147447
+ 9       0.968629  0.490255
+10       0.118509  0.974630
+-------------------------------
+Geoffrey King
+CIS 110
+Thu Mar 14 19:03:42 2024
+-------------------------------

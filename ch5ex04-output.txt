@@ -1,0 +1,39 @@
+Python 3.12.0 (tags/v3.12.0:0fb18b0, Oct  2 2023, 13:03:39) [MSC v.1935 64 bit (AMD64)] on win32
+Type "help", "copyright", "credits" or "license()" for more information.
+>>> 
+= RESTART: E:/110/pyth/exercises/ch5/ch5ex04.py
+This program builds acronyms
+Enter a phrase to recieve an accronym: Hurry Up And Wait
+The acronym is: HUAW
+-------------------------------
+Geoff King
+CIS 110 ch5ex04.py
+Thu Feb 15 11:24:26 2024
+-------------------------------
+>>> main()
+This program builds acronyms
+Enter a phrase to recieve an accronym: hurry up and wait
+The acronym is: HUAW
+-------------------------------
+Geoff King
+CIS 110 ch5ex04.py
+Thu Feb 15 11:24:40 2024
+-------------------------------
+>>> main()
+This program builds acronyms
+Enter a phrase to recieve an accronym: random access memory
+The acronym is: RAM
+-------------------------------
+Geoff King
+CIS 110 ch5ex04.py
+Thu Feb 15 11:25:04 2024
+-------------------------------
+>>> main()
+This program builds acronyms
+Enter a phrase to recieve an accronym: laugh out loud
+The acronym is: LOL
+-------------------------------
+Geoff King
+CIS 110 ch5ex04.py
+Thu Feb 15 11:25:16 2024
+-------------------------------
