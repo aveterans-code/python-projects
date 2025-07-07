@@ -1,5 +1,6 @@
 # python-projects
 Contains python modules and sample output
+
 List of what each porgram does:
 ch3ex04.py
   -Lightning strike distance calculation
