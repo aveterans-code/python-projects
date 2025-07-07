@@ -1,0 +1,22 @@
+Geoff King
+CIS 110
+Assignment 4 – Strings
+March 21, 2024
+
+IPO
+Input- a txt file
+Process- convert numbers from file to int then characters.
+Output- compiled characters.
+
+Pseudocode
+Print intro
+Prompt user for file name
+Open file in read mode
+Read entire file, store in a variable string1
+Close file
+Create a blank list called poem
+Create a loop that splits string1 at spaces
+Change each small string of numbers to integers using int()
+Change each integer to its ASCII character value using chr() and add/append character value to poem
+print poem incorporating (end=’’)
+
