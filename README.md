@@ -1,4 +1,4 @@
-CHaoter 6 python-projects
+Chapter 6 python-projects
 Contains basic, entry-level, python modules and sample output
 
 ch6ex12.py (List Sum Calculator)
