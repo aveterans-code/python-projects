@@ -1,0 +1,24 @@
+Python 3.12.0 (tags/v3.12.0:0fb18b0, Oct  2 2023, 13:03:39) [MSC v.1935 64 bit (AMD64)] on win32
+Type "help", "copyright", "credits" or "license()" for more information.
+>>> 
+= RESTART: D:/Springdrive/T110/pyth/exercises/ch7/king_program6.py
++-----------------------------------------+
+| Weight | Special  | Tracking | Shipping |
+|(ounces)| Handling |          |  Charge  |
++-----------------------------------------+
+|   10   |    no    |    no    | $   2.00 |
+|   26   |    no    |   yes    | $  12.80 |
+|   16   |   yes    |    no    | $   9.80 |
+|   48   |   yes    |   yes    | $  26.70 |
+|   72   |    no    |    no    | $  36.00 |
+|   64   |   yes    |   yes    | $  39.50 |
+|   13   |   yes    |   yes    | $  10.10 |
+|   27   |    no    |   yes    | $  13.10 |
+|   31   |    no    |    no    | $   9.30 |
+|   32   |    no    |    no    | $  12.80 |
++-----------------------------------------+
+-------------------------------
+Geoff King
+CIS 110 program6
+Thu Apr 18 15:27:02 2024
+-------------------------------

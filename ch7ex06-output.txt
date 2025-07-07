@@ -1,0 +1,27 @@
+Python 3.12.0 (tags/v3.12.0:0fb18b0, Oct  2 2023, 13:03:39) [MSC v.1935 64 bit (AMD64)] on win32
+Type "help", "copyright", "credits" or "license()" for more information.
+>>> 
+= RESTART: D:/Springdrive/T110/pyth/exercises/ch7/ch7ex06.py
+Speeding fine calculator
+
+What is the speed limit? 25
+Clocked speed? 45
+You messed up. The fine is $150.00
+>>> main()
+Speeding fine calculator
+
+What is the speed limit? 50
+Clocked speed? 62
+You messed up. The fine is $110.00
+>>> main()
+Speeding fine calculator
+
+What is the speed limit? 35
+Clocked speed? 34
+You are legal!
+>>> main()
+Speeding fine calculator
+
+What is the speed limit? 75
+Clocked speed? 95
+You messed up. The fine is $350.00
