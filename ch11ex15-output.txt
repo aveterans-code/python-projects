@@ -1,0 +1,24 @@
+Python 3.12.0 (tags/v3.12.0:0fb18b0, Oct  2 2023, 13:03:39) [MSC v.1935 64 bit (AMD64)] on win32
+Type "help", "copyright", "credits" or "license()" for more information.
+>>> 
+= RESTART: D:/Springdrive/T110/pyth/exercises/ch11/ch11ex15.py
+How many cards should I deal?: 5
+Jack of Spades 10
+Nine of Hearts 9
+Jack of Diamonds 10
+Ace of Diamonds 1
+Queen of Diamonds 10
+>>> main()
+How many cards should I deal?: 5
+Queen of Hearts 10
+Four of Clubs 4
+Four of Diamonds 4
+Nine of Diamonds 9
+Jack of Hearts 10
+>>> main()
+How many cards should I deal?: 5
+Three of Spades 3
+Three of Diamonds 3
+Two of Spades 2
+Queen of Diamonds 10
+Six of Spades 6
