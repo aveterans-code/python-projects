@@ -1,0 +1,42 @@
+Python 3.12.0 (tags/v3.12.0:0fb18b0, Oct  2 2023, 13:03:39) [MSC v.1935 64 bit (AMD64)] on win32
+Type "help", "copyright", "credits" or "license()" for more information.
+
+= RESTART: D:\Springdrive\T110\pyth\exercises\ch10\king_program9.py
+This program simulates bank account transactions
+
+Starting balances:
+MyChecking: $0.00, Savings: $0.00
+
+Depositing $500.00 into MyChecking
+MyChecking: $500.00, Savings: $0.00
+
+Depositing $100.00 into Savings
+MyChecking: $500.00, Savings: $100.00
+
+Transfering $150.00 from MyChecking to Savings
+withdrawing $150.00 from MyChecking
+Depositing $150.00 into Savings
+MyChecking: $350.00, Savings: $250.00
+
+UNABLE to deposit $-50.00 into MyChecking
+MyChecking: $350.00, Savings: $250.00
+
+NOT enough funds to withdraw $600.00 from MyChecking
+MyChecking: $350.00, Savings: $250.00
+
+withdrawing $250.00 from MyChecking
+MyChecking: $100.00, Savings: $250.00
+
+withdrawing $100.00 from Savings
+MyChecking: $100.00, Savings: $150.00
+
+Transfering $75.00 from Savings to MyChecking
+withdrawing $75.00 from Savings
+Depositing $75.00 into MyChecking
+MyChecking: $175.00, Savings: $75.00
+
+-------------------------------
+Geoff King
+CIS 110 
+Fri Apr 26 21:00:43 2024
+-------------------------------

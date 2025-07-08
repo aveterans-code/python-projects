@@ -1,0 +1,996 @@
+Python 3.12.0 (tags/v3.12.0:0fb18b0, Oct  2 2023, 13:03:39) [MSC v.1935 64 bit (AMD64)] on win32
+Type "help", "copyright", "credits" or "license()" for more information.
+
+= RESTART: D:\Springdrive\T110\pyth\exercises\ch10\ch10ex11.py
+Testing card class
+
+Number of cards to see? 20
+The card: Seven of Hearts - Blackjack value: 7
+The card: Five of Diamonds - Blackjack value: 5
+The card: Nine of Clubs - Blackjack value: 9
+The card: Ten of Clubs - Blackjack value: 10
+The card: Ten of Hearts - Blackjack value: 10
+The card: Five of Diamonds - Blackjack value: 5
+The card: Four of Clubs - Blackjack value: 4
+The card: Nine of Hearts - Blackjack value: 9
+The card: Seven of Spades - Blackjack value: 7
+The card: Queen of Diamonds - Blackjack value: 10
+The card: Nine of Spades - Blackjack value: 9
+The card: Seven of Hearts - Blackjack value: 7
+The card: Four of Hearts - Blackjack value: 4
+The card: Three of Hearts - Blackjack value: 3
+The card: Five of Spades - Blackjack value: 5
+The card: Jack of Clubs - Blackjack value: 10
+The card: Jack of Hearts - Blackjack value: 10
+The card: Ten of Spades - Blackjack value: 10
+The card: Eight of Diamonds - Blackjack value: 8
+The card: Seven of Spades - Blackjack value: 7
+
+======= RESTART: D:\Springdrive\T110\pyth\exercises\ch10\king_program9.py ======
+This program simulates bank account transactions
+
+MyChecking balance is $0, Savings balance is $0
+-------------------------------
+Geoff King
+CIS 110 
+Fri Apr 26 20:01:10 2024
+-------------------------------
+
+======= RESTART: D:\Springdrive\T110\pyth\exercises\ch10\king_program9.py ======
+This program simulates bank account transactions
+Starting balances
+
+MyChecking balance is $0, Savings balance is $0
+-------------------------------
+Geoff King
+CIS 110 
+Fri Apr 26 20:02:33 2024
+-------------------------------
+
+======= RESTART: D:\Springdrive\T110\pyth\exercises\ch10\king_program9.py ======
+This program simulates bank account transactions
+
+Starting balances:
+MyChecking balance is $0, Savings balance is $0
+-------------------------------
+Geoff King
+CIS 110 
+Fri Apr 26 20:02:59 2024
+-------------------------------
+
+======= RESTART: D:\Springdrive\T110\pyth\exercises\ch10\king_program9.py ======
+This program simulates bank account transactions
+
+Starting balances:
+MyChecking balance is $0, Savings balance is $0
+Traceback (most recent call last):
+  File "D:\Springdrive\T110\pyth\exercises\ch10\king_program9.py", line 94, in <module>
+    main()
+  File "D:\Springdrive\T110\pyth\exercises\ch10\king_program9.py", line 75, in main
+    MyChecking.deposit(500)
+  File "D:\Springdrive\T110\pyth\exercises\ch10\king_program9.py", line 26, in deposit
+    self.aBalance += amount
+AttributeError: 'BankAccount' object has no attribute 'aBalance'. Did you mean: '_aBalance'?
+
+======= RESTART: D:\Springdrive\T110\pyth\exercises\ch10\king_program9.py ======
+This program simulates bank account transactions
+
+Starting balances:
+MyChecking balance is $0, Savings balance is $0
+Traceback (most recent call last):
+  File "D:\Springdrive\T110\pyth\exercises\ch10\king_program9.py", line 94, in <module>
+    main()
+  File "D:\Springdrive\T110\pyth\exercises\ch10\king_program9.py", line 75, in main
+    MyChecking.deposit(500)
+  File "D:\Springdrive\T110\pyth\exercises\ch10\king_program9.py", line 26, in deposit
+    self.aBalance += amount
+AttributeError: 'BankAccount' object has no attribute 'aBalance'. Did you mean: '_aBalance'?
+
+======= RESTART: D:\Springdrive\T110\pyth\exercises\ch10\king_program9.py ======
+This program simulates bank account transactions
+
+Starting balances:
+MyChecking balance is $0, Savings balance is $0
+
+depositing $ 500 into MyChecking
+MyChecking balance is $500, Savings balance is $0
+-------------------------------
+Geoff King
+CIS 110 
+Fri Apr 26 20:23:17 2024
+-------------------------------
+
+======= RESTART: D:\Springdrive\T110\pyth\exercises\ch10\king_program9.py ======
+This program simulates bank account transactions
+
+Starting balances:
+MyChecking balance is $0, Savings balance is $0
+
+Depositing $ 500 into MyChecking
+MyChecking balance is $500, Savings balance is $0
+
+Depositing $ 100 into Savings
+MyChecking balance is $500, Savings balance is $100
+-------------------------------
+Geoff King
+CIS 110 
+Fri Apr 26 20:25:08 2024
+-------------------------------
+
+======= RESTART: D:\Springdrive\T110\pyth\exercises\ch10\king_program9.py ======
+This program simulates bank account transactions
+
+Starting balances:
+MyChecking balance is $0, Savings balance is $0
+
+Depositing $ 500 into MyChecking
+MyChecking balance is $500, Savings balance is $0
+
+Depositing $ 100 into Savings
+MyChecking balance is $500, Savings balance is $100.00
+-------------------------------
+Geoff King
+CIS 110 
+Fri Apr 26 20:26:37 2024
+-------------------------------
+
+======= RESTART: D:\Springdrive\T110\pyth\exercises\ch10\king_program9.py ======
+This program simulates bank account transactions
+
+Starting balances:
+MyChecking balance is $0, Savings balance is $0
+
+Depositing $ 500 into MyChecking
+MyChecking balance is $500, Savings balance is $0
+
+Depositing $ 100 into Savings
+MyChecking balance is $500, Savings balance is $100.00
+-------------------------------
+Geoff King
+CIS 110 
+Fri Apr 26 20:29:02 2024
+-------------------------------
+
+======= RESTART: D:\Springdrive\T110\pyth\exercises\ch10\king_program9.py ======
+This program simulates bank account transactions
+
+Starting balances:
+MyChecking balance is $0, Savings balance is $0
+
+Depositing {amount:2.2f}, to MyChecking
+MyChecking balance is $500, Savings balance is $0
+
+Depositing {amount:2.2f}, to Savings
+MyChecking balance is $500, Savings balance is $100.00
+-------------------------------
+Geoff King
+CIS 110 
+Fri Apr 26 20:30:09 2024
+-------------------------------
+
+======= RESTART: D:\Springdrive\T110\pyth\exercises\ch10\king_program9.py ======
+This program simulates bank account transactions
+
+Starting balances:
+MyChecking balance is $0, Savings balance is $0
+
+Depositing {amount:2.2f} to MyChecking
+MyChecking balance is $500, Savings balance is $0
+
+Depositing {amount:2.2f} to Savings
+MyChecking balance is $500, Savings balance is $100.00
+-------------------------------
+Geoff King
+CIS 110 
+Fri Apr 26 20:30:26 2024
+-------------------------------
+
+======= RESTART: D:\Springdrive\T110\pyth\exercises\ch10\king_program9.py ======
+This program simulates bank account transactions
+
+Starting balances:
+MyChecking balance is $0, Savings balance is $0
+
+Depositing ${amount:2.2f} to MyChecking
+MyChecking balance is $500, Savings balance is $0
+
+Depositing ${amount:2.2f} to Savings
+MyChecking balance is $500, Savings balance is $100.00
+-------------------------------
+Geoff King
+CIS 110 
+Fri Apr 26 20:30:42 2024
+-------------------------------
+
+======= RESTART: D:\Springdrive\T110\pyth\exercises\ch10\king_program9.py ======
+This program simulates bank account transactions
+
+Starting balances:
+MyChecking balance is $0, Savings balance is $0
+
+Depositing $500.00 to MyChecking
+MyChecking balance is $500, Savings balance is $0
+
+Depositing $100.00 to Savings
+MyChecking balance is $500, Savings balance is $100.00
+-------------------------------
+Geoff King
+CIS 110 
+Fri Apr 26 20:30:53 2024
+-------------------------------
+
+======= RESTART: D:\Springdrive\T110\pyth\exercises\ch10\king_program9.py ======
+This program simulates bank account transactions
+
+Starting balances:
+MyChecking balance is $0, Savings balance is $0
+
+Depositing $500.00 into MyChecking
+MyChecking balance is $500, Savings balance is $0
+
+Depositing $100.00 into Savings
+MyChecking balance is $500, Savings balance is $100.00
+-------------------------------
+Geoff King
+CIS 110 
+Fri Apr 26 20:31:49 2024
+-------------------------------
+
+======= RESTART: D:\Springdrive\T110\pyth\exercises\ch10\king_program9.py ======
+This program simulates bank account transactions
+
+Starting balances:
+MyChecking balance is $0, Savings balance is $0
+
+Depositing $500.00 into MyChecking
+MyChecking balance is $500, Savings balance is $0
+
+Depositing $100.00 into Savings
+MyChecking balance is $500, Savings balance is $100.00
+-------------------------------
+Geoff King
+CIS 110 
+Fri Apr 26 20:33:52 2024
+-------------------------------
+
+======= RESTART: D:\Springdrive\T110\pyth\exercises\ch10\king_program9.py ======
+This program simulates bank account transactions
+
+Starting balances:
+MyChecking balance is $0, Savings balance is $0
+
+Depositing $500.00 into MyChecking
+MyChecking balance is $500, Savings balance is $0
+
+Depositing $100.00 into Savings
+MyChecking balance is $500, Savings balance is $100.00
+
+Transfering $150.00 from MyChecking to Savings
+
+withdrawing $150.00 from MyChecking
+
+Depositing $150.00 into Savings
+MyChecking balance is $350, Savings balance is $250.00
+-------------------------------
+Geoff King
+CIS 110 
+Fri Apr 26 20:35:45 2024
+-------------------------------
+
+======= RESTART: D:\Springdrive\T110\pyth\exercises\ch10\king_program9.py ======
+This program simulates bank account transactions
+
+Starting balances:
+MyChecking balance is $0, Savings balance is $0
+Depositing $500.00 into MyChecking
+MyChecking balance is $500, Savings balance is $0
+Depositing $100.00 into Savings
+MyChecking balance is $500, Savings balance is $100.00
+
+Transfering $150.00 from MyChecking to Savings
+withdrawing $150.00 from MyChecking
+Depositing $150.00 into Savings
+MyChecking balance is $350, Savings balance is $250.00
+-------------------------------
+Geoff King
+CIS 110 
+Fri Apr 26 20:36:44 2024
+-------------------------------
+
+======= RESTART: D:\Springdrive\T110\pyth\exercises\ch10\king_program9.py ======
+This program simulates bank account transactions
+
+Starting balances:
+
+MyChecking balance is $0, Savings balance is $0
+Depositing $500.00 into MyChecking
+
+MyChecking balance is $500, Savings balance is $0
+Depositing $100.00 into Savings
+
+MyChecking balance is $500, Savings balance is $100.00
+
+Transfering $150.00 from MyChecking to Savings
+withdrawing $150.00 from MyChecking
+Depositing $150.00 into Savings
+MyChecking balance is $350, Savings balance is $250.00
+-------------------------------
+Geoff King
+CIS 110 
+Fri Apr 26 20:37:11 2024
+-------------------------------
+
+======= RESTART: D:\Springdrive\T110\pyth\exercises\ch10\king_program9.py ======
+This program simulates bank account transactions
+
+Starting balances:
+MyChecking balance is $0, Savings balance is $0
+Depositing $500.00 into MyChecking
+MyChecking balance is $500, Savings balance is $0
+Depositing $100.00 into Savings
+MyChecking balance is $500, Savings balance is $100.00
+
+Transfering $150.00 from MyChecking to Savings
+withdrawing $150.00 from MyChecking
+Depositing $150.00 into Savings
+MyChecking balance is $350, Savings balance is $250.00
+-------------------------------
+Geoff King
+CIS 110 
+Fri Apr 26 20:37:40 2024
+-------------------------------
+
+======= RESTART: D:\Springdrive\T110\pyth\exercises\ch10\king_program9.py ======
+This program simulates bank account transactions
+
+Starting balances:
+MyChecking balance is $0, Savings balance is $0
+
+Depositing $500.00 into MyChecking
+MyChecking balance is $500, Savings balance is $0
+Depositing $100.00 into Savings
+MyChecking balance is $500, Savings balance is $100.00
+
+Transfering $150.00 from MyChecking to Savings
+withdrawing $150.00 from MyChecking
+Depositing $150.00 into Savings
+MyChecking balance is $350, Savings balance is $250.00
+-------------------------------
+Geoff King
+CIS 110 
+Fri Apr 26 20:37:59 2024
+-------------------------------
+
+======= RESTART: D:\Springdrive\T110\pyth\exercises\ch10\king_program9.py ======
+This program simulates bank account transactions
+
+Starting balances:
+MyChecking balance is $0, Savings balance is $0
+
+Depositing $500.00 into MyChecking
+MyChecking balance is $500, Savings balance is $0
+
+Depositing $100.00 into Savings
+MyChecking balance is $500, Savings balance is $100
+
+
+Transfering $150.00 from MyChecking to Savings
+withdrawing $150.00 from MyChecking
+Depositing $150.00 into Savings
+MyChecking balance is $350, Savings balance is $250.00
+-------------------------------
+Geoff King
+CIS 110 
+Fri Apr 26 20:38:39 2024
+-------------------------------
+
+======= RESTART: D:\Springdrive\T110\pyth\exercises\ch10\king_program9.py ======
+This program simulates bank account transactions
+
+Starting balances:
+MyChecking balance is $0, Savings balance is $0
+
+Depositing $500.00 into MyChecking
+MyChecking balance is $500, Savings balance is $0
+
+Depositing $100.00 into Savings
+MyChecking balance is $500, Savings balance is $100
+
+Transfering $150.00 from MyChecking to Savings
+withdrawing $150.00 from MyChecking
+Depositing $150.00 into Savings
+MyChecking balance is $350, Savings balance is $250.00
+-------------------------------
+Geoff King
+CIS 110 
+Fri Apr 26 20:39:07 2024
+-------------------------------
+
+======= RESTART: D:\Springdrive\T110\pyth\exercises\ch10\king_program9.py ======
+This program simulates bank account transactions
+
+Starting balances:
+MyChecking balance is $0, Savings balance is $0
+
+Depositing $500.00 into MyChecking
+MyChecking balance is $500, Savings balance is $0
+
+Depositing $100.00 into Savings
+MyChecking balance is $500, Savings balance is $100
+
+Transfering $150.00 from MyChecking to Savings
+withdrawing $150.00 from MyChecking
+Depositing $150.00 into Savings
+
+MyChecking balance is $350, Savings balance is $250.00
+-------------------------------
+Geoff King
+CIS 110 
+Fri Apr 26 20:40:17 2024
+-------------------------------
+
+======= RESTART: D:\Springdrive\T110\pyth\exercises\ch10\king_program9.py ======
+This program simulates bank account transactions
+
+Starting balances:
+MyChecking balance is $0, Savings balance is $0
+
+Depositing $500.00 into MyChecking
+MyChecking balance is $500, Savings balance is $0
+
+Depositing $100.00 into Savings
+MyChecking balance is $500, Savings balance is $100
+
+Transfering $150.00 from MyChecking to Savings
+withdrawing $150.00 from MyChecking
+Depositing $150.00 into Savings
+MyChecking balance is $350, Savings balance is $250
+
+-------------------------------
+Geoff King
+CIS 110 
+Fri Apr 26 20:40:59 2024
+-------------------------------
+
+======= RESTART: D:\Springdrive\T110\pyth\exercises\ch10\king_program9.py ======
+This program simulates bank account transactions
+
+Starting balances:
+MyChecking balance is $0, Savings balance is $0
+
+Depositing $500.00 into MyChecking
+MyChecking balance is $500, Savings balance is $0
+
+Depositing $100.00 into Savings
+MyChecking balance is $500, Savings balance is $100
+
+Transfering $150.00 from MyChecking to Savings
+withdrawing $150.00 from MyChecking
+Depositing $150.00 into Savings
+MyChecking balance is $350, Savings balance is $250
+
+
+unable to deposit ${amount:2.2f} into MyChecking
+MyChecking balance is $350, Savings balance is $250
+
+-------------------------------
+Geoff King
+CIS 110 
+Fri Apr 26 20:42:39 2024
+-------------------------------
+
+======= RESTART: D:\Springdrive\T110\pyth\exercises\ch10\king_program9.py ======
+This program simulates bank account transactions
+
+Starting balances:
+MyChecking balance is $0, Savings balance is $0
+
+Depositing $500.00 into MyChecking
+MyChecking balance is $500, Savings balance is $0
+
+Depositing $100.00 into Savings
+MyChecking balance is $500, Savings balance is $100
+
+Transfering $150.00 from MyChecking to Savings
+withdrawing $150.00 from MyChecking
+Depositing $150.00 into Savings
+MyChecking balance is $350, Savings balance is $250
+
+
+unable to deposit ${amount:0.2f} into MyChecking
+MyChecking balance is $350, Savings balance is $250
+
+-------------------------------
+Geoff King
+CIS 110 
+Fri Apr 26 20:43:45 2024
+-------------------------------
+
+======= RESTART: D:\Springdrive\T110\pyth\exercises\ch10\king_program9.py ======
+This program simulates bank account transactions
+
+Starting balances:
+MyChecking balance is $0, Savings balance is $0
+
+Depositing $500.00 into MyChecking
+MyChecking balance is $500, Savings balance is $0
+
+Depositing $100.00 into Savings
+MyChecking balance is $500, Savings balance is $100
+
+Transfering $150.00 from MyChecking to Savings
+withdrawing $150.00 from MyChecking
+Depositing $150.00 into Savings
+MyChecking balance is $350, Savings balance is $250
+
+
+UNABLE to deposit $-50.00 into MyChecking
+MyChecking balance is $350, Savings balance is $250
+
+-------------------------------
+Geoff King
+CIS 110 
+Fri Apr 26 20:44:21 2024
+-------------------------------
+
+======= RESTART: D:\Springdrive\T110\pyth\exercises\ch10\king_program9.py ======
+This program simulates bank account transactions
+
+Starting balances:
+MyChecking balance is $0, Savings balance is $0
+
+Depositing $500.00 into MyChecking
+MyChecking balance is $500, Savings balance is $0
+
+Depositing $100.00 into Savings
+MyChecking balance is $500, Savings balance is $100
+
+Transfering $150.00 from MyChecking to Savings
+withdrawing $150.00 from MyChecking
+Depositing $150.00 into Savings
+MyChecking balance is $350, Savings balance is $250
+
+UNABLE to deposit $-50.00 into MyChecking
+MyChecking balance is $350, Savings balance is $250
+
+-------------------------------
+Geoff King
+CIS 110 
+Fri Apr 26 20:44:54 2024
+-------------------------------
+
+======= RESTART: D:\Springdrive\T110\pyth\exercises\ch10\king_program9.py ======
+This program simulates bank account transactions
+
+Starting balances:
+MyChecking balance is $0, Savings balance is $0
+
+Depositing $500.00 into MyChecking
+MyChecking balance is $500, Savings balance is $0
+
+Depositing $100.00 into Savings
+MyChecking balance is $500, Savings balance is $100
+
+Transfering $150.00 from MyChecking to Savings
+withdrawing $150.00 from MyChecking
+Depositing $150.00 into Savings
+MyChecking balance is $350, Savings balance is $250
+
+UNABLE to deposit $-50.00 into MyChecking
+MyChecking balance is $350, Savings balance is $250
+
+
+NOT enough funds to withdraw ${amount:0.2f} from MyChecking
+MyChecking balance is $350, Savings balance is $250
+
+-------------------------------
+Geoff King
+CIS 110 
+Fri Apr 26 20:46:04 2024
+-------------------------------
+
+======= RESTART: D:\Springdrive\T110\pyth\exercises\ch10\king_program9.py ======
+This program simulates bank account transactions
+
+Starting balances:
+MyChecking balance is $0, Savings balance is $0
+
+Depositing $500.00 into MyChecking
+MyChecking balance is $500, Savings balance is $0
+
+Depositing $100.00 into Savings
+MyChecking balance is $500, Savings balance is $100
+
+Transfering $150.00 from MyChecking to Savings
+withdrawing $150.00 from MyChecking
+Depositing $150.00 into Savings
+MyChecking balance is $350, Savings balance is $250
+
+UNABLE to deposit $-50.00 into MyChecking
+MyChecking balance is $350, Savings balance is $250
+
+
+NOT enough funds to withdraw $600.00 from MyChecking
+MyChecking balance is $350, Savings balance is $250
+
+-------------------------------
+Geoff King
+CIS 110 
+Fri Apr 26 20:46:24 2024
+-------------------------------
+
+======= RESTART: D:\Springdrive\T110\pyth\exercises\ch10\king_program9.py ======
+This program simulates bank account transactions
+
+Starting balances:
+MyChecking balance is $0, Savings balance is $0
+
+Depositing $500.00 into MyChecking
+MyChecking balance is $500, Savings balance is $0
+
+Depositing $100.00 into Savings
+MyChecking balance is $500, Savings balance is $100
+
+Transfering $150.00 from MyChecking to Savings
+withdrawing $150.00 from MyChecking
+Depositing $150.00 into Savings
+MyChecking balance is $350, Savings balance is $250
+
+UNABLE to deposit $-50.00 into MyChecking
+MyChecking balance is $350, Savings balance is $250
+
+NOT enough funds to withdraw $600.00 from MyChecking
+MyChecking balance is $350, Savings balance is $250
+
+-------------------------------
+Geoff King
+CIS 110 
+Fri Apr 26 20:46:33 2024
+-------------------------------
+
+======= RESTART: D:\Springdrive\T110\pyth\exercises\ch10\king_program9.py ======
+This program simulates bank account transactions
+
+Starting balances:
+MyChecking balance is $0, Savings balance is $0
+
+Depositing $500.00 into MyChecking
+MyChecking balance is $500, Savings balance is $0
+
+Depositing $100.00 into Savings
+MyChecking balance is $500, Savings balance is $100
+
+Transfering $150.00 from MyChecking to Savings
+withdrawing $150.00 from MyChecking
+Depositing $150.00 into Savings
+MyChecking balance is $350, Savings balance is $250
+
+UNABLE to deposit $-50.00 into MyChecking
+MyChecking balance is $350, Savings balance is $250
+
+NOT enough funds to withdraw $600.00 from MyChecking
+MyChecking balance is $350, Savings balance is $250
+
+withdrawing $250.00 from MyChecking
+MyChecking balance is $100, Savings balance is $250
+
+-------------------------------
+Geoff King
+CIS 110 
+Fri Apr 26 20:47:57 2024
+-------------------------------
+
+======= RESTART: D:\Springdrive\T110\pyth\exercises\ch10\king_program9.py ======
+This program simulates bank account transactions
+
+Starting balances:
+MyChecking balance is $0, Savings balance is $0
+
+Depositing $500.00 into MyChecking
+MyChecking balance is $500, Savings balance is $0
+
+Depositing $100.00 into Savings
+MyChecking balance is $500, Savings balance is $100
+
+Transfering $150.00 from MyChecking to Savings
+withdrawing $150.00 from MyChecking
+Depositing $150.00 into Savings
+MyChecking balance is $350, Savings balance is $250
+
+UNABLE to deposit $-50.00 into MyChecking
+MyChecking balance is $350, Savings balance is $250
+
+NOT enough funds to withdraw $600.00 from MyChecking
+MyChecking balance is $350, Savings balance is $250
+
+withdrawing $250.00 from MyChecking
+MyChecking balance is $100, Savings balance is $250
+
+withdrawing $100.00 from Savings
+MyChecking balance is $100, Savings balance is $150
+
+-------------------------------
+Geoff King
+CIS 110 
+Fri Apr 26 20:49:05 2024
+-------------------------------
+
+======= RESTART: D:\Springdrive\T110\pyth\exercises\ch10\king_program9.py ======
+This program simulates bank account transactions
+
+Starting balances:
+MyChecking balance is $0, Savings balance is $0
+
+Depositing $500.00 into MyChecking
+MyChecking balance is $500, Savings balance is $0
+
+Depositing $100.00 into Savings
+MyChecking balance is $500, Savings balance is $100
+
+Transfering $150.00 from MyChecking to Savings
+withdrawing $150.00 from MyChecking
+Depositing $150.00 into Savings
+MyChecking balance is $350, Savings balance is $250
+
+UNABLE to deposit $-50.00 into MyChecking
+MyChecking balance is $350, Savings balance is $250
+
+NOT enough funds to withdraw $600.00 from MyChecking
+MyChecking balance is $350, Savings balance is $250
+
+withdrawing $250.00 from MyChecking
+MyChecking balance is $100, Savings balance is $250
+
+withdrawing $100.00 from Savings
+MyChecking balance is $100, Savings balance is $150
+
+Transfering $75.00 from Savings to MyChecking
+withdrawing $75.00 from Savings
+Depositing $75.00 into MyChecking
+MyChecking balance is $175, Savings balance is $75
+
+-------------------------------
+Geoff King
+CIS 110 
+Fri Apr 26 20:51:09 2024
+-------------------------------
+
+======= RESTART: D:\Springdrive\T110\pyth\exercises\ch10\king_program9.py ======
+This program simulates bank account transactions
+
+Starting balances:
+MyChecking: $0, Savings: $0
+
+Depositing $500.00 into MyChecking
+MyChecking balance is $500, Savings balance is $0
+
+Depositing $100.00 into Savings
+MyChecking balance is $500, Savings balance is $100
+
+Transfering $150.00 from MyChecking to Savings
+withdrawing $150.00 from MyChecking
+Depositing $150.00 into Savings
+MyChecking balance is $350, Savings balance is $250
+
+UNABLE to deposit $-50.00 into MyChecking
+MyChecking balance is $350, Savings balance is $250
+
+NOT enough funds to withdraw $600.00 from MyChecking
+MyChecking balance is $350, Savings balance is $250
+
+withdrawing $250.00 from MyChecking
+MyChecking balance is $100, Savings balance is $250
+
+withdrawing $100.00 from Savings
+MyChecking balance is $100, Savings balance is $150
+
+Transfering $75.00 from Savings to MyChecking
+withdrawing $75.00 from Savings
+Depositing $75.00 into MyChecking
+MyChecking balance is $175, Savings balance is $75
+
+-------------------------------
+Geoff King
+CIS 110 
+Fri Apr 26 20:53:36 2024
+-------------------------------
+
+======= RESTART: D:\Springdrive\T110\pyth\exercises\ch10\king_program9.py ======
+This program simulates bank account transactions
+
+Starting balances:
+MyChecking: $0, Savings: $0
+
+Depositing $500.00 into MyChecking
+MyChecking: $500, Savings: $0
+
+Depositing $100.00 into Savings
+MyChecking: $500, Savings: $100
+
+Transfering $150.00 from MyChecking to Savings
+withdrawing $150.00 from MyChecking
+Depositing $150.00 into Savings
+MyChecking: $350, Savings: $250
+
+UNABLE to deposit $-50.00 into MyChecking
+MyChecking: $350, Savings: $250
+
+NOT enough funds to withdraw $600.00 from MyChecking
+MyChecking: $350, Savings: $250
+
+withdrawing $250.00 from MyChecking
+MyChecking: $100, Savings: $250
+
+withdrawing $100.00 from Savings
+MyChecking: $100, Savings: $150
+
+Transfering $75.00 from Savings to MyChecking
+withdrawing $75.00 from Savings
+Depositing $75.00 into MyChecking
+MyChecking: $175, Savings: $75
+
+-------------------------------
+Geoff King
+CIS 110 
+Fri Apr 26 20:54:38 2024
+-------------------------------
+
+======= RESTART: D:\Springdrive\T110\pyth\exercises\ch10\king_program9.py ======
+This program simulates bank account transactions
+
+Starting balances:
+MyChecking: $0, Savings: $0.00
+
+Depositing $500.00 into MyChecking
+MyChecking: $500, Savings: $0
+
+Depositing $100.00 into Savings
+MyChecking: $500, Savings: $100
+
+Transfering $150.00 from MyChecking to Savings
+withdrawing $150.00 from MyChecking
+Depositing $150.00 into Savings
+MyChecking: $350, Savings: $250
+
+UNABLE to deposit $-50.00 into MyChecking
+MyChecking: $350, Savings: $250
+
+NOT enough funds to withdraw $600.00 from MyChecking
+MyChecking: $350, Savings: $250
+
+withdrawing $250.00 from MyChecking
+MyChecking: $100, Savings: $250
+
+withdrawing $100.00 from Savings
+MyChecking: $100, Savings: $150
+
+Transfering $75.00 from Savings to MyChecking
+withdrawing $75.00 from Savings
+Depositing $75.00 into MyChecking
+MyChecking: $175, Savings: $75
+
+-------------------------------
+Geoff King
+CIS 110 
+Fri Apr 26 20:55:23 2024
+-------------------------------
+
+======= RESTART: D:\Springdrive\T110\pyth\exercises\ch10\king_program9.py ======
+This program simulates bank account transactions
+
+Starting balances:
+MyChecking: $0.00, Savings: $0.00
+
+Depositing $500.00 into MyChecking
+MyChecking: $500, Savings: $0
+
+Depositing $100.00 into Savings
+MyChecking: $500, Savings: $100
+
+Transfering $150.00 from MyChecking to Savings
+withdrawing $150.00 from MyChecking
+Depositing $150.00 into Savings
+MyChecking: $350, Savings: $250
+
+UNABLE to deposit $-50.00 into MyChecking
+MyChecking: $350, Savings: $250
+
+NOT enough funds to withdraw $600.00 from MyChecking
+MyChecking: $350, Savings: $250
+
+withdrawing $250.00 from MyChecking
+MyChecking: $100, Savings: $250
+
+withdrawing $100.00 from Savings
+MyChecking: $100, Savings: $150
+
+Transfering $75.00 from Savings to MyChecking
+withdrawing $75.00 from Savings
+Depositing $75.00 into MyChecking
+MyChecking: $175, Savings: $75
+
+-------------------------------
+Geoff King
+CIS 110 
+Fri Apr 26 20:55:46 2024
+-------------------------------
+
+======= RESTART: D:\Springdrive\T110\pyth\exercises\ch10\king_program9.py ======
+This program simulates bank account transactions
+
+Starting balances:
+MyChecking: $0.00, Savings: $0.00
+
+Depositing $500.00 into MyChecking
+MyChecking: $500, Savings: $0
+
+Depositing $100.00 into Savings
+MyChecking: $500, Savings: $100
+
+Transfering $150.00 from MyChecking to Savings
+withdrawing $150.00 from MyChecking
+Depositing $150.00 into Savings
+MyChecking: $350, Savings: $250
+
+UNABLE to deposit $-50.00 into MyChecking
+MyChecking: $350, Savings: $250
+
+NOT enough funds to withdraw $600.00 from MyChecking
+MyChecking: $350, Savings: $250
+
+withdrawing $250.00 from MyChecking
+MyChecking: $100, Savings: $250
+
+withdrawing $100.00 from Savings
+MyChecking: $100, Savings: $150
+
+Transfering $75.00 from Savings to MyChecking
+withdrawing $75.00 from Savings
+Depositing $75.00 into MyChecking
+MyChecking: $175, Savings: $75
+
+-------------------------------
+Geoff King
+CIS 110 
+Fri Apr 26 20:56:04 2024
+-------------------------------
+
+======= RESTART: D:\Springdrive\T110\pyth\exercises\ch10\king_program9.py ======
+This program simulates bank account transactions
+
+Starting balances:
+MyChecking: $0.00, Savings: $0.00
+
+Depositing $500.00 into MyChecking
+MyChecking: $500.00, Savings: $0.00
+
+Depositing $100.00 into Savings
+MyChecking: $500.00, Savings: $100.00
+
+Transfering $150.00 from MyChecking to Savings
+withdrawing $150.00 from MyChecking
+Depositing $150.00 into Savings
+MyChecking: $350.00, Savings: $250.00
+
+UNABLE to deposit $-50.00 into MyChecking
+MyChecking: $350.00, Savings: $250.00
+
+NOT enough funds to withdraw $600.00 from MyChecking
+MyChecking: $350.00, Savings: $250.00
+
+withdrawing $250.00 from MyChecking
+MyChecking: $100.00, Savings: $250.00
+
+withdrawing $100.00 from Savings
+MyChecking: $100.00, Savings: $150.00
+
+Transfering $75.00 from Savings to MyChecking
+withdrawing $75.00 from Savings
+Depositing $75.00 into MyChecking
+MyChecking: $175.00, Savings: $75.00
+
+-------------------------------
+Geoff King
+CIS 110 
+Fri Apr 26 20:57:15 2024
+-------------------------------

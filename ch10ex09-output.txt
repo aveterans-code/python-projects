@@ -1,0 +1,17 @@
+Python 3.12.0 (tags/v3.12.0:0fb18b0, Oct  2 2023, 13:03:39) [MSC v.1935 64 bit (AMD64)] on win32
+Type "help", "copyright", "credits" or "license()" for more information.
+>>> 
+= RESTART: D:\Springdrive\T110\pyth\exercises\ch10\ch10ex09.py
+This program computes the volume and surface area of a sphere
+
+Enter the radius of the sphere: 10
+
+Surface area: 1256.64 square units.
+Volume: 4188.79 cubic units.
+>>> main()
+This program computes the volume and surface area of a sphere
+
+Enter the radius of the sphere: 18
+
+Surface area: 4071.50 square units.
+Volume: 24429.02 cubic units.
