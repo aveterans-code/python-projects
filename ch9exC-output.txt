@@ -1,0 +1,39 @@
+Python 3.12.0 (tags/v3.12.0:0fb18b0, Oct  2 2023, 13:03:39) [MSC v.1935 64 bit (AMD64)] on win32
+Type "help", "copyright", "credits" or "license()" for more information.
+>>> 
+= RESTART: D:\Springdrive\T110\pyth\exercises\ch9\ch9exC.py
+Confirm PRNs are uniform
+How many samples would you like? 10
+0: 60.00%
+1: 10.00%
+2: 20.00%
+3:  0.00%
+4:  0.00%
+5: 10.00%
+>>> main()
+Confirm PRNs are uniform
+How many samples would you like? 100
+0: 28.00%
+1: 13.00%
+2: 12.00%
+3: 14.00%
+4: 18.00%
+5: 15.00%
+>>> main()
+Confirm PRNs are uniform
+How many samples would you like? 1000
+0: 17.60%
+1: 17.00%
+2: 17.00%
+3: 16.10%
+4: 16.70%
+5: 15.60%
+>>> main()
+Confirm PRNs are uniform
+How many samples would you like? 10000
+0: 17.00%
+1: 16.40%
+2: 17.20%
+3: 16.35%
+4: 16.58%
+5: 16.47%

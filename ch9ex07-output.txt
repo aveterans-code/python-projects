@@ -1,0 +1,21 @@
+Python 3.12.0 (tags/v3.12.0:0fb18b0, Oct  2 2023, 13:03:39) [MSC v.1935 64 bit (AMD64)] on win32
+Type "help", "copyright", "credits" or "license()" for more information.
+>>> 
+= RESTART: D:/Springdrive/T110/pyth/exercises/ch9/ch9ex07.py
+This program simulates multiple games of craps to estimate wins
+
+Number of games to simulate? 10
+The player wins 3 of 10 games.
+The percentage of wins is 30.00%
+>>> main()
+This program simulates multiple games of craps to estimate wins
+
+Number of games to simulate? 100
+The player wins 48 of 100 games.
+The percentage of wins is 48.00%
+>>> main()
+This program simulates multiple games of craps to estimate wins
+
+Number of games to simulate? 1000
+The player wins 476 of 1000 games.
+The percentage of wins is 47.60%
