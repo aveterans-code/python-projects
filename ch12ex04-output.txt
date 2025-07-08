@@ -1,0 +1,23 @@
+Python 3.12.0 (tags/v3.12.0:0fb18b0, Oct  2 2023, 13:03:39) [MSC v.1935 64 bit (AMD64)] on win32
+Type "help", "copyright", "credits" or "license()" for more information.
+>>> 
+= RESTART: D:\Springdrive\T110\pyth\exercises\ch12\ch12ex04.py
+
+All Attendees:
+Frodo Baggins Bag End Ltd ME frodo@bagend.com
+Samwise Gamgee Sam's Lawn & Garden ME coneys@samgardens.com
+Merry Brandybuck Rohan Stable Supplies ME merry@rohanstable.com
+Pippin Took Gondor Guardians ME pippin@gondor.com
+Gandalf Big Sky Pyrotechnics FL gandalf@bigskypyrotechnics.com
+Aragorn Strider's Tracking Services MT aragorn@sts.org
+Legolas Lorien Archery Outfitters CA legolas@lorienarcheryoutfitters.com
+Gimli Mines and More ID gimli@minesandmore.com
+Boromir See It Done Stewards TX boromir@stewards.org
+Saruman presents "Keep your Friends Close and your Enemies Closer" on Day 1
+
+Attendees from Maine:
+
+Frodo Baggins Bag End Ltd ME frodo@bagend.com
+Samwise Gamgee Sam's Lawn & Garden ME coneys@samgardens.com
+Merry Brandybuck Rohan Stable Supplies ME merry@rohanstable.com
+Pippin Took Gondor Guardians ME pippin@gondor.com
