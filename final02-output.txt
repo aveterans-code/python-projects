@@ -1,0 +1,29 @@
+Python 3.12.0 (tags/v3.12.0:0fb18b0, Oct  2 2023, 13:03:39) [MSC v.1935 64 bit (AMD64)] on win32
+Type "help", "copyright", "credits" or "license()" for more information.
+>>> 
+= RESTART: D:\Springdrive\T110\pyth\exercises\finals\final02.py
+This program prints the number of words entered and
+then prints out the first and last letters of each
+word along with each word entered
+Press Enter after each word
+
+Enter a word or press <Enter> to Quit: pepsi
+Enter a word or press <Enter> to Quit: yams
+Enter a word or press <Enter> to Quit: tonic
+Enter a word or press <Enter> to Quit: huito
+Enter a word or press <Enter> to Quit: oreo
+Enter a word or press <Enter> to Quit: nonpareil
+Enter a word or press <Enter> to Quit: 
+6 Words were entered
+p i PEPSI
+y s YAMS
+t c TONIC
+h o HUITO
+o o OREO
+n l NONPAREIL
+
+-------------------------------
+Geoff King
+CIS 110 
+Sun May  5 15:37:03 2024
+-------------------------------

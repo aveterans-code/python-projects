@@ -1,0 +1,75 @@
+Python 3.12.0 (tags/v3.12.0:0fb18b0, Oct  2 2023, 13:03:39) [MSC v.1935 64 bit (AMD64)] on win32
+Type "help", "copyright", "credits" or "license()" for more information.
+>>> 
+= RESTART: D:\Springdrive\T110\pyth\exercises\finals\final03.py
+This program will select a random number 1-100.
+Enter a number and you will get a 'higher' or 'lower' hint.
+
+The random number has been selected.
+Your guess?: 50
+Higher.
+Your guess?: 60
+Higher.
+Your guess?: 80
+Higher.
+Your guess?: 90
+Higher.
+Your guess?: 95
+Lower.
+Your guess?: 94
+Lower.
+Your guess?: 93
+Lower.
+Your guess?: 91
+Higher.
+Your guess?: 92
+Correct!
+-------------------------------
+Geoff King
+CIS 110 
+Sun May  5 16:10:58 2024
+-------------------------------
+>>> main()
+This program will select a random number 1-100.
+Enter a number and you will get a 'higher' or 'lower' hint.
+
+The random number has been selected.
+Your guess?: 80
+Lower.
+Your guess?: 60
+Lower.
+Your guess?: 40
+Lower.
+Your guess?: 20
+Higher.
+Your guess?: 30
+Lower.
+Your guess?: 25
+Lower.
+Your guess?: 22
+Correct!
+-------------------------------
+Geoff King
+CIS 110 
+Sun May  5 16:11:20 2024
+-------------------------------
+main()
+This program will select a random number 1-100.
+Enter a number and you will get a 'higher' or 'lower' hint.
+
+The random number has been selected.
+Your guess?: 22
+Lower.
+Your guess?: 15
+Higher.
+Your guess?: 20
+Lower.
+Your guess?: 19
+Lower.
+Your guess?: 18
+Correct!
+-------------------------------
+Geoff King
+CIS 110 
+Sun May  5 16:11:37 2024
+-------------------------------
